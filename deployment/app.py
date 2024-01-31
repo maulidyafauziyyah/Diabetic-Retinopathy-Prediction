@@ -16,8 +16,6 @@ if page == 'Home Page':
         st.image('https://www.drchelvinsng.com/wp-content/uploads/2021/12/Diabetic-Retinopathy1.jpg')
     st.write('')
     st.header('Diabetic Retinopathy Prediction')
-    st.write('Nama      : Maulidya Fauziyyah')
-    st.write('Batch     : HCK - 011')
     st.write('Tujuan    : Memprediksi Diabetic Retinopathy Menggunakan konsep Computer Vision')
     st.write('')
 
