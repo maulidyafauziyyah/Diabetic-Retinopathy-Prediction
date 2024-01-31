@@ -29,10 +29,10 @@ Project dikerjakan dalam format *notebook* dan *model deployment* dengan beberap
 
 3. Isi *notebook* harus mengikuti *outline* di bawah ini:
    1. Perkenalan
-      > Bab pengenalan harus diisi dengan identitas, gambaran besar dataset yang digunakan, dan *objective* yang ingin dicapai.
+      > Bab ini berisi gambaran besar dataset yang digunakan.
    
    2. Import Libraries
-      > *Cell* pertama pada *notebook* berisi dan hanya berisi semua *library* yang digunakan dalam *project*.
+      > *Cell* pertama pada *notebook* berisi semua *library* yang digunakan dalam *project*.
    
    3. Data Loading
       > Bagian ini berisi proses penyiapan data sebelum dilakukan eksplorasi data lebih lanjut. Proses Data Loading dapat berupa memberi nama baru untuk setiap kolom, mengecek ukuran dataset, dll.
@@ -49,29 +49,29 @@ Project dikerjakan dalam format *notebook* dan *model deployment* dengan beberap
       > Bagian ini berisi cell untuk mendefinisikan model. Jelaskan alasan menggunakan suatu algoritma/model, hyperparameter yang dipakai, jenis penggunaan metrics yang dipakai, dan hal lain yang terkait dengan model.
 
       vi.2. Model Training
-      > Cell pada bagian ini hanya berisi code untuk melatih model dan output yang dihasilkan. Lakukan beberapa kali proses training dengan hyperparameter yang berbeda untuk melihat hasil yang didapatkan. Analisis dan narasikan hasil ini pada bagian Model Evaluation.
+      > Cell pada bagian ini berisi code untuk melatih model dan output yang dihasilkan.  
    
       vi.3. Model Evaluation
-      > Pada bagian ini, dilakukan evaluasi model yang harus menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. Hal ini harus dibuktikan dengan visualisasi tren performa dan/atau tingkat kesalahan model. **Lakukan analisis secara detail terkait dengan hasil pada model dan tuliskan hasil analisisnya**.
+      > Pada bagian ini, dilakukan evaluasi model yang menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. Hal ini dibuktikan dengan visualisasi tren performa dan/atau tingkat kesalahan model.
 
    7. ANN Improvement (Sequential API, Functional API, dan Transfer Learning)
       
       vii.1. Model Definition
-      > Bagian ini berisi cell untuk mendefinisikan model. Jelaskan alasan menggunakan suatu algoritma/model, hyperparameter yang dipakai, jenis penggunaan metrics yang dipakai, dan hal lain yang terkait dengan model.
+      > Bagian ini berisi cell untuk mendefinisikan model. 
 
       vii.2. Model Training
-      > Cell pada bagian ini hanya berisi code untuk melatih model dan output yang dihasilkan. Lakukan beberapa kali proses training dengan hyperparameter yang berbeda untuk melihat hasil yang didapatkan. Analisis dan narasikan hasil ini pada bagian Model Evaluation.
-   
+      > Cell pada bagian ini berisi code untuk melatih model dan output yang dihasilkan. 
+
       vii.3. Model Evaluation
-      > Pada bagian ini, dilakukan evaluasi model yang harus menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. Hal ini harus dibuktikan dengan visualisasi tren performa dan/atau tingkat kesalahan model. **Lakukan analisis secara detail terkait dengan hasil pada model dan tuliskan hasil analisisnya**.
+      > Pada bagian ini, dilakukan evaluasi model yang menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. 
    
    8. Model Saving
-      > Pada bagian ini, dilakukan proses penyimpanan model dan file-file lain yang terkait dengan hasil proses pembuatan model. Pilihlah 1 arsitektur ANN yang terbaik berdasarkan hasil evaluasi sebelumnya. **Nyatakan secara jelas arsitektur mana yang akan dipakai sebagai model terbaik (Sequential API atau Functional API).**
+      > Pada bagian ini, dilakukan proses penyimpanan model dan file-file lain yang terkait dengan hasil proses pembuatan model. 
    
    9. Model Inference
-      > Model yang sudah dilatih akan dicoba pada data yang bukan termasuk ke dalam train-set, val-set, ataupun test-set. Data ini harus dalam format yang asli, bukan data yang sudah di-scaled. **Model Inference harus berada pada notebook yang berbeda dari notebook yang dipakai untuk pembuatan model.**
+      > Model yang sudah dilatih akan dicoba pada data yang bukan termasuk ke dalam train-set, val-set, ataupun test-set. 
    
    10. Pengambilan Kesimpulan
-       > Pada bagian terakhir ini, berisi kesimpulan yang mencerminkan hasil yang didapat dengan *objective* yang sudah ditulis di bagian pengenalan.
+       > Pada bagian terakhir ini, berisi kesimpulan yang mencerminkan hasil yang didapat.
 
 ---
