@@ -1,19 +1,17 @@
-
 ## Objectives
 
-Project ini dibuat guna mengevaluasi konsep Computer Vision / Natural Language Processing dengan pemahaman sebagai berikut:
+This project is created to evaluate the concepts of Computer Vision with the following understanding:
 
-- Konsep Computer Vision/NLP.
-- Mempersiapkan data untuk digunakan dalam model Computer Vision.
-- Mampu mengimplementasikan Artificial Neural Network dengan data yang dipilih.
-- Mampu menganalisis dan menjelaskan performansi dari arsitektur Artificial Neural Network yang dibuat.
+- Concepts of Computer Vision/NLP.
+- Preparation of data for use in Computer Vision models.
+- Ability to implement an Artificial Neural Network with selected data.
+- Ability to analyze and explain the performance of the created Artificial Neural Network architecture.
 
 ---
 
-
 ### Data Sources
 
-Dataset dipilih dari repository dibawah ini:
+The dataset is selected from the following repository:
 
 https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy
 
@@ -21,57 +19,57 @@ https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy
 
 ## Instructions
 
-Project dikerjakan dalam format *notebook* dan *model deployment* dengan beberapa *kriteria* di bawah ini:
+The project is to be done in a notebook format and model deployment with several criteria below:
 
-1. Deep Learning framework yang digunakan adalah *TensorFlow*.
+1. The Deep Learning framework used is TensorFlow.
 
-2. Ada penggunaan library visualisasi, seperti *matplotlib*, *seaborn*, atau yang lain.
+2. Visualization libraries such as matplotlib, seaborn, or others are used.
 
-3. Isi *notebook* harus mengikuti *outline* di bawah ini:
-   1. Perkenalan
-      > Bab ini berisi gambaran besar dataset yang digunakan.
-   
+3. The notebook content should follow the outline below:
+   1. Introduction
+      > This section provides an overview of the dataset used.
+
    2. Import Libraries
-      > *Cell* pertama pada *notebook* berisi semua *library* yang digunakan dalam *project*.
-   
+      > The first cell in the notebook contains all the libraries used in the project.
+
    3. Data Loading
-      > Bagian ini berisi proses penyiapan data sebelum dilakukan eksplorasi data lebih lanjut. Proses Data Loading dapat berupa memberi nama baru untuk setiap kolom, mengecek ukuran dataset, dll.
-   
+      > This section contains the data preparation process before further data exploration. Data Loading processes may include renaming columns, checking the dataset size, etc.
+
    4. Exploratory Data Analysis (EDA)
-      > Bagian ini berisi explorasi data pada dataset diatas dengan menggunakan query, grouping, visualisasi sederhana, dan lain sebagainya.
+      > This section contains data exploration of the above dataset using queries, grouping, simple visualizations, and others.
 
    5. Feature Engineering
-      > Bagian ini berisi proses penyiapan data untuk proses pelatihan model, seperti pembagian data menjadi train-val-test, preprocessing, dan proses-proses lain yang dibutuhkan.   
-   
-   6. ANN Training (Sequential API, Functional API, dan Transfer Learning)
+      > This section contains the data preparation process for model training, such as data splitting into train-val-test, preprocessing, and other necessary processes.
+
+   6. ANN Training (Sequential API, Functional API, and Transfer Learning)
       
       vi.1. Model Definition
-      > Bagian ini berisi cell untuk mendefinisikan model. Jelaskan alasan menggunakan suatu algoritma/model, hyperparameter yang dipakai, jenis penggunaan metrics yang dipakai, dan hal lain yang terkait dengan model.
+      > This section contains cells to define the model. Explain the reasons for using a particular algorithm/model, the hyperparameters used, the type of metrics used, and other model-related aspects.
 
       vi.2. Model Training
-      > Cell pada bagian ini berisi code untuk melatih model dan output yang dihasilkan.  
-   
-      vi.3. Model Evaluation
-      > Pada bagian ini, dilakukan evaluasi model yang menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. Hal ini dibuktikan dengan visualisasi tren performa dan/atau tingkat kesalahan model.
+      > Cells in this section contain code to train the model and the resulting output.
 
-   7. ANN Improvement (Sequential API, Functional API, dan Transfer Learning)
+      vi.3. Model Evaluation
+      > In this section, model evaluation is performed, showing the model's performance based on the selected metrics. This is supported by visualizations of performance trends and/or error rates.
+
+   7. ANN Improvement (Sequential API, Functional API, and Transfer Learning)
       
       vii.1. Model Definition
-      > Bagian ini berisi cell untuk mendefinisikan model. 
+      > This section contains cells to define the model.
 
       vii.2. Model Training
-      > Cell pada bagian ini berisi code untuk melatih model dan output yang dihasilkan. 
+      > Cells in this section contain code to train the model and the resulting output.
 
       vii.3. Model Evaluation
-      > Pada bagian ini, dilakukan evaluasi model yang menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. 
-   
+      > In this section, model evaluation is performed, showing the model's performance based on the selected metrics.
+
    8. Model Saving
-      > Pada bagian ini, dilakukan proses penyimpanan model dan file-file lain yang terkait dengan hasil proses pembuatan model. 
-   
+      > In this section, the process of saving the model and other files related to the model creation is performed.
+
    9. Model Inference
-      > Model yang sudah dilatih akan dicoba pada data yang bukan termasuk ke dalam train-set, val-set, ataupun test-set. 
-   
-   10. Pengambilan Kesimpulan
-       > Pada bagian terakhir ini, berisi kesimpulan yang mencerminkan hasil yang didapat.
+      > The trained model will be tested on data not included in the train-set, val-set, or test-set.
+
+   10. Conclusion
+       > In this final section, conclusions reflecting the obtained results are provided.
 
 ---
